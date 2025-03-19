@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                margin: 0;
+                padding: 0;
+                background-image: url("static/quiz bgi2.jpg");
+                background-size:auto;
+            }
+            .img{
+                color: rgba(255, 255, 255, 0.1);
+                background: url("static/fire2.jpg") repeat-x;
+                -webkit-background-clip: text;
+            }
+            .Header{
+                text-align:center;
+                color:antiquewhite;
+                font-size: 3.7em;
+            }
+            .section{
+                margin-top: 2em;
+                text-align: center;
+            }
+            .btn {
+                text-align: center;
+                vertical-align: center;
+                padding: .67em;
+                cursor: pointer;
+                align-items: center;
+            }
+            .btn-header{
+                color: white;
+                border: 2px solid #2D9CDB;
+                background-image: url("static/quiz bgi.jpg");
+                background-size:100px;
+                border-radius: 3em;
+                font-size: .57em;
+                font-weight: lighter;
+                padding-left: 1em;
+                padding-right: 1em;
+            }
+            .btn-span:hover{
+                color: rgba(255, 255, 255, .3);
+                background: url("static/fire.jpg") repeat-x;
+                /* background-size: cover; */
+                -webkit-background-clip: text;
+            }
+            .button{
+                display: grid;
+                grid-template-columns:1fr 1fr;
+                text-align: center;
+                margin-bottom: 3em;
+            }
+            .folder{
+                display: grid;
+                grid-template-columns:1fr 1fr 1fr;
+                text-align: center;
+                color: antiquewhite;
+                margin-top: 4em;
+            }
+            .folder li{
+                margin-top: 10%;
+                font-size: 1.7em;
+                color: rgba(255, 255, 255, 0.1);
+                background: url("static/fire.jpg") repeat-x;
+                -webkit-background-clip: text;                
+            }
+            .subject-btn{
+                font-size: 2em;
+                color: rgba(255, 255, 255, 0.1);
+                /* font-family: sans-serif; */
+                background: url("static/fire4.jpg") repeat-x;
+                -webkit-background-clip: text;
+            }
+            .logo{
+                font-size:150px;
+                color: rgba(255, 255, 255, 0.1);
+                background: url("static/quiz bgi3.png") repeat-x;
+                -webkit-background-clip: text; 
+            }
+        </style>
+    </head>
+    <body>
+        <header class="Header">
+            <h1 class="img">Name</h1>
+            <div class="button">
+                <div>
+                    <a href="login" ><button class="btn btn-header" type="button"><span class="btn-span">LOG IN<span></button></a>
+                </div>
+                <div>
+                    <a href="create" ><button class="btn btn-header" type="button"><span class="btn-span">CREATE NEW ACCOUNT</span></button></a>
+                </div>
+            </div>
+        </header>
+        <section class="section">
+            <div class="folder">
+                <div>
+                    <h2 class="subject-btn">SUBJECTS</h2>
+                    <ul>
+                        <li>MATHEMATICS</li>
+                        <li>PHYSICS</li>
+                        <li>CHEMISTRY</li>
+                        <li>GENERAL KNOWLEDGE</li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="logo">Quiz</h2>
+                </div>
+                <div>
+                    <h2 class="subject-btn">QUESTIONS COMING FROM</h2>
+                    <ul>
+                        <li>10<sup>th</sup>,11<sup>th</sup>,12<sup>th</sup> AND ENGINEERING</li>
+                        <li>10<sup>th</sup>,11<sup>th</sup>,12<sup>th</sup> AND ENGINEERING</li>
+                        <li>10<sup>th</sup>,11<sup>th</sup>,12<sup>th</sup> AND ENGINEERING</li>
+                        <li>FROM ALL OVER WORLD</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
+<!-- <video autoplay loop muted>
+                            <source src="static/maths intro.mp4" type="video/mp4" >
+                        </video> -->

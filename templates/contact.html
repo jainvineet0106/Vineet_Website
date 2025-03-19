@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="static/style.css" />
+    <style>
+        body{
+                background-image: url("static/home bgi.png");
+                background-size: cover;
+            }
+    </style>
+</head>
+<body>
+    <header class="main-header">
+        <nav class="nav">
+            <ul>
+                <li><a href="home">Home</a></li>
+                <li><a href="reffrence">reffrence</a></li>
+                <li><a href="about">About</a></li>
+                <li><a href="contact">Contact</a></li>
+            </ul>
+        </nav>
+        <h1 class="band-name">NAME</h1>
+        <h1 class="band-name">Contact</h1>
+    </header>
+    <section>
+        <form class="form" action="/contact" method="post">
+            <ul>
+                <li class="form-heading"><span class="font">Name:</span> <input class="input-box write" type="text" name="name" placeholder="Enter Your Full Name"></li>
+                <li class="form-heading"><span class="font">Phone:</span> <input class="input-box write" type="number" name="phone" placeholder="Enter Your Phone Number"></li>
+                <li class="form-heading"><span class="font">E-mail:</span> <input class="input-box write" type="text" name="address" placeholder="Enter Your E-mail Address"></li>
+                <li class="form-heading"><span class="font">Country:</span>
+                    <select class="input-box" name="country" >
+                        <option>INDIA</option>
+                        <option>CHINA</option>
+                        <option>JAPAN</option>
+                        <option>KORIYA</option>
+                    </select>
+                </li>
+                <li class="form-heading"><span class="font">Message:</span><textarea class="write" name="message"></textarea></li>
+            </ul>
+            <div class="buttons">
+                <input class="btn btn-primary sub-reset"  type="submit"> <input class="btn btn-primary sub-reset" type="reset">
+            </div>
+        </form>
+    </section>
+    <footer class="main-footer">
+        <h3 class="band-name">NAME</h3>
+        <ul class="nav footer-nav">
+            <li>
+                <a href="www.whatsapp.com"><img src="static/whatsapp.png"></a>
+            </li>
+            <li>
+                <a href="www.google.com" target="_blank"><img src="static/chrome Logo.png "></a>
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,3 @@
+username ,phone,E-mail ,password,score
+vineet jain,9109859319,jainvineet0106@gmail.com,ELITW01/06,10
+vipul jain,6261302020,vipuljain2003@gmail.com,vipul2003,0
